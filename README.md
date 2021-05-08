@@ -1,12 +1,27 @@
-# CPPND: Capstone Snake Game Example
-
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+# CPP Nanodegree Capstone Project: Snake Game
 
 <img src="snake_game.gif"/>
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
 
-In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+## Snake Game Extended Functionality
+For the Capstone Project, I've chosen to extend the provided Snake Game in the following ways:
+
+1.
+2.
+3.
+4.
+5.
+
+## Project Rubric
+The rubric for this project contains a few required criteria (namely related to README.MD and compiling and testing), and several categories with optional criteria ('Loops, Functions, I/O', 'Object Oriented Programming', 'Memory Management' & 'Concurrency') which are related to the major lessons from the Nanodegree.  The table below lists the fulfilled criteria categories, the specific critera and it's location in the codebase.
+
+### Criteria Met
+| Category | Criteria | Where |
+| --- | --- | --- |
+| README | A README with instructions is included with the project | |
+| README | The README indicates which project is chosen.| |
+| README | The README includes information about each rubric point addressed. | |
+| Compiling & Testing | The submission must compile and run. |  |
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
