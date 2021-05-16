@@ -1,0 +1,12 @@
+DANCHO,5,8
+DANCHO,5,17
+Dancho,3,5
+Dancho,5,17
+Dancho,5,15
+jjjj,7,10
+llllll,5,6
+aaaaaa,6,16
+qqq,6,19
+,5,11
+afdfa,5,9
+TEST,16,45

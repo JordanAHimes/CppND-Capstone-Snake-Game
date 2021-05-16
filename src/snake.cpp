@@ -1,6 +1,11 @@
 #include "snake.h"
+#include "renderer.h"
+#include "game.h"
 #include <cmath>
 #include <iostream>
+#include <foodval.h>
+
+
 
 void Snake::Update() {
   SDL_Point prev_cell{
@@ -15,6 +20,8 @@ void Snake::Update() {
   // Update all of the body vector items if the snake head has moved to a new
   // cell.
   if (current_cell.x != prev_cell.x || current_cell.y != prev_cell.y) {
+
+    FoodVal::instance()->UpdateFoodVal();
     UpdateBody(current_cell, prev_cell);
   }
 }
@@ -59,6 +66,8 @@ void Snake::UpdateBody(SDL_Point &current_head_cell, SDL_Point &prev_head_cell) 
   for (auto const &item : body) {
     if (current_head_cell.x == item.x && current_head_cell.y == item.y) {
       alive = false;
+      
+      //renderer.~Renderer();
     }
   }
 }

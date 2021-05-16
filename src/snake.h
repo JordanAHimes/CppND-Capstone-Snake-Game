@@ -2,7 +2,10 @@
 #define SNAKE_H
 
 #include <vector>
-#include "SDL.h"
+#include <SDL2/SDL.h>
+
+
+
 
 class Snake {
  public:
@@ -14,6 +17,8 @@ class Snake {
         head_x(grid_width / 2),
         head_y(grid_height / 2) {}
 
+  ~Snake(){};
+
   void Update();
 
   void GrowBody();
@@ -21,7 +26,7 @@ class Snake {
 
   Direction direction = Direction::kUp;
 
-  float speed{0.1f};
+  float speed{0.05f};
   int size{1};
   bool alive{true};
   float head_x;

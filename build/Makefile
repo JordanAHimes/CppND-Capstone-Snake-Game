@@ -150,6 +150,33 @@ src/controller.cpp.s:
 	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/controller.cpp.s
 .PHONY : src/controller.cpp.s
 
+src/foodval.o: src/foodval.cpp.o
+
+.PHONY : src/foodval.o
+
+# target to build an object file
+src/foodval.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/foodval.cpp.o
+.PHONY : src/foodval.cpp.o
+
+src/foodval.i: src/foodval.cpp.i
+
+.PHONY : src/foodval.i
+
+# target to preprocess a source file
+src/foodval.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/foodval.cpp.i
+.PHONY : src/foodval.cpp.i
+
+src/foodval.s: src/foodval.cpp.s
+
+.PHONY : src/foodval.s
+
+# target to generate assembly for a file
+src/foodval.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/foodval.cpp.s
+.PHONY : src/foodval.cpp.s
+
 src/game.o: src/game.cpp.o
 
 .PHONY : src/game.o
@@ -176,6 +203,33 @@ src/game.s: src/game.cpp.s
 src/game.cpp.s:
 	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
+
+src/highscore.o: src/highscore.cpp.o
+
+.PHONY : src/highscore.o
+
+# target to build an object file
+src/highscore.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/highscore.cpp.o
+.PHONY : src/highscore.cpp.o
+
+src/highscore.i: src/highscore.cpp.i
+
+.PHONY : src/highscore.i
+
+# target to preprocess a source file
+src/highscore.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/highscore.cpp.i
+.PHONY : src/highscore.cpp.i
+
+src/highscore.s: src/highscore.cpp.s
+
+.PHONY : src/highscore.s
+
+# target to generate assembly for a file
+src/highscore.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/src/highscore.cpp.s
+.PHONY : src/highscore.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -270,9 +324,15 @@ help:
 	@echo "... src/controller.o"
 	@echo "... src/controller.i"
 	@echo "... src/controller.s"
+	@echo "... src/foodval.o"
+	@echo "... src/foodval.i"
+	@echo "... src/foodval.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/highscore.o"
+	@echo "... src/highscore.i"
+	@echo "... src/highscore.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
